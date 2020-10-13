@@ -1,0 +1,102 @@
+https://pan.baidu.com/s/1YnljsjPiLRlWOpbgAGodlA
+提取码：58yo
+
+https://pan.baidu.com/s/1azC02pphJP97NjUaHwpGmA
+提取码: 5hxw
+
+https://pan.baidu.com/s/1wZ6vUHug1imZVJQz7dEGVg
+提取码：ysk7
+
+https://pan.baidu.com/s/1YUPa8jMIdo2yr5eMA0X6QA
+提取码: ugs1
+
+https://pan.baidu.com/s/1gjLZsMK3BXK7mXmZaNcp4A
+提取码: 7atw
+
+https://pan.baidu.com/s/1ZTaxV7V_cushsW2Z5fT_wQ
+提取码：anen
+
+https://pan.baidu.com/s/1nMzPtGbw5Y2syHGLTRlJTg
+提取码: ntac
+
+https://pan.baidu.com/s/19UnSearxCFLAvZq2m2Sy1A
+提取码: biiq
+
+https://pan.baidu.com/s/1XgrDOOmP927WCuSFGmhfRQ
+提取码: y6x3
+
+https://pan.baidu.com/s/1EGEoMlSQEjGOlWWDhh3URQ
+密码: 3vkz
+
+
+HMI展示系统客流统计模块
+一、需要获取的信息
+	1、从调度系统获取的信息
+		1）预约消息集。包括预约消息ID、预约用户ID、预约站点、预约人数等基本信息。
+	2、从云控平台获取的信息
+		1）车载系统的面向乘客视频监控消息集。包括车辆ID、车辆出发站点、乘客上下客情况、落座情况、乘客人数等基本信息。
+		2）路侧系统的RSM消息集。包括站点ID、对应站点客流数、上下客人数等基本信息。
+
+二、推送消息
+	1、推送给云控平台的信息
+		1）预约人数统计消息集。包括站点ID、站点实时预约人数、站点历史预约人数、平台历史预约人数等信息。
+		2）客运人数统计消息集。包括时间、站点ID、实时客运人数、历史客运人数等信息。
+		3）客流人数统计消息集。包括时间、站点ID、各站点实时客流人数、各站点上下客吞吐量、实时客流数、历史客流数等信息。
+
+三、接口
+	1、与调度系统的接口：数据总线、数据查询接口
+	2、与云控平台的接口：数据总线
+
+四、接口说明
+	1、数据查询接口：
+	HMI展示系统客流统计模块直接访问调度系统数据库，
+
+	2、数据总线：
+	云控平台通过数据总线将车载系统的面向乘客视频监控消息集、路侧系统的RSM消息集，客流统计模块将处理结果通过数据总线返回到云控平台。
+
+
+
+x = 8.308445957973349e+04 * lon - 1.006993272267137e+07
+y = 9.715354422209098e+04 * lat - 3.039687289253865e+06
+
+
+With the rapid development of automobile industry, intelligent transportation system based on Internet of vehicles has been widely concerned and gradually applied to practical engineering. As an important part of the intelligent connected vehicles system, the roads have to be more and more intelligent. Relying on a variety of sensors and advanced information and communication technologies, a configured road can sense the traffic situation in real time, and we can extract the Roadside Safety Message (RSM), a type of important data for the development of vehicle-infrastructure cooperation application, which can be uploaded to the cloud and sent to nearby vehicles. In addition,  it is of great significance to build a local dynamic map with the road information perceived by the roadside system, which combines the static digital map with the dynamic environment object to improve the cooperation of dynamic, static and temporary information in the geographical environment.
+This project uses the actual hardware equipment to configure the intelligent traffic intersection and build an experimental platform. A roadside system is designed, which uses edge computing to track targets based on multi-sensor fusion at the roadside, and build a local dynamic map with information perceived by the roadside system.The main work of this paper is as follows:
+(1) Extraction of Roadside Safety Message (RSM). Data acquisition is carried out by means of sensors such as cameras and radar installed on the side of the road, multi-sensor data fusion is carried out in the industrial personal computer to track targets, and the fusion information is published as RSM.
+(2) Build a local dynamic map.A web map is constructed, with geographic information as the static data layer and RSM as the dynamic data layer. The human-machine interface (HMI) is designed and made to display the traffic status of the intersection in real time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
